@@ -1,0 +1,167 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+/* Header */
+.header{
+    display: flex;
+    background-color: beige;
+    padding: 10px;
+}
+
+.header-logo img{
+    height: 100px;
+    margin: auto 0;
+}
+
+.header-title{
+    margin: auto auto;
+}
+
+.header-title a:hover{
+    color:  rgb(0, 136, 255);
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+}
+
+/* Nav */
+.nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 29px;
+    height: 20px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: rgb(0, 136, 255);
+}
+
+/* Content */
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.content h1{
+    color: darkgreen;
+    font-size: 35px;
+}
+
+.content h2{
+    color: rgb(114, 224, 94);
+    font-size: 22px;
+}
+
+/* Table Buku */
+.daftar-buku{
+    text-align: center;
+    color: darkgreen;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.content-table div{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+td>img{
+    width: 100px;
+}
+
+.table-header{
+    background-color: beige;
+}
+
+.table-header th{
+    padding: 10px;
+    text-align: center;
+}
+
+.table-ganjil{
+    background-color: rgb(192, 243, 91);
+}
+
+.table-genap td{
+    padding: 10px;
+}
+
+.table-genap{
+    background-color: rgb(111, 249, 249);
+}
+
+.table-genap:hover{
+    background-color: gray;
+}
+
+.table-ganjil:hover{
+    background-color: gray;
+}
+
+.table{
+    border-spacing: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td{
+    padding: 20px;
+    width: 100px;
+}
+
+/* Form */
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 20px;
+    color: gray;
+}
+
+.form-group input{
+    display: block;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.form-group textarea{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width: 60%;
+}
+
+.button-submit{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.button-submit:hover{
+    background-color: green;
+}
